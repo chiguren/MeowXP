@@ -18,7 +18,7 @@
   "homeVodImg": "/a/@data-original",
   "homeVodMark": "/a/span[@class='pic-text text-right']/text()",
   // Category Summary ================================================    
-  "cateUrl": "https://www.zxzjtv.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+  "cateUrl": "https://zxzj.vip/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
   "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/div[@class='stui-vodlist__box']",
   "cateVodName": "/a/@title",
   "cateVodId": "/a/@href",
@@ -26,7 +26,7 @@
   "cateVodImg": "/a/@data-original",
   "cateVodMark": "/a/span[@class='pic-text text-right']/text()",
   // Category Details ================================================    
-  "dtUrl": "https://www.zxzjtv.com/detail/{vid}.html",
+  "dtUrl": "https://zxzj.vip/detail/{vid}.html",
   "dtNode": "//div[@class='stui-pannel__bd']",
   "dtName": "//div[@class='stui-content__thumb']/a/@title",
   "dtImg": "//div[@class='stui-content__thumb']/a/img/@data-original",
@@ -48,10 +48,10 @@
   "dtUrlId": "/@href",
   "dtUrlIdR": "/video/(\\S+).html",
   "dtUrlName": "/text()",
-  "playUrl": "https://www.zxzjtv.com/video/{playUrl}.html",
+  "playUrl": "https://zxzj.vip/video/{playUrl}.html",
   "playUa": "",
   // Search Results ================================================         
-  "searchUrl": "https://www.zxzjtv.com/search/-------------.html?wd={wd}&submit=",
+  "searchUrl": "https://zxzj.vip/search/-------------.html?wd={wd}&submit=",
   "scVodNode": "//div[@class='stui-vodlist__box']",
   "scVodName": "/a/@title",
   "scVodId": "/a/@href",
